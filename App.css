@@ -1,0 +1,26 @@
+
+#labyrinthe{
+  width: 80vw;
+  height: 90vh;
+  margin:auto;
+  margin-top: 5vh;
+  display: grid;
+  grid-template-columns: repeat(80, 1fr); /* Crée 80 colonnes égales */
+  grid-template-rows: repeat(80, 1fr); 
+  background-color: red;
+}
+.tile{
+  background-color: white;
+  border:solid black 1px;
+  
+}
+.wall{
+  background-color: gray;
+}
+.depart{
+  background-color: blue;
+}
+.arrive{
+  background-color: yellow;
+
+}
