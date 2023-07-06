@@ -1,9 +1,10 @@
 
-const nb_row = 80;
-const nb_col = 80;
-const freq_wall = 4;
+const nb_row = 80; // ne pas changer 
+const nb_col = 80;	// ne pas changer
+const freq_wall = 4; //plus le nb est grand moins il y'a de mur
+const vitesse_generation=20 //vitesse d'affichage du chemin en ms
 let labyrinthe = init_lab(nb_row, nb_col, freq_wall);
-const vitesse_generation=50 //en ms
+
 function init_lab(nb_row, nb_col, freq_wall) {
 	let labyrinthe = [];
 	let tmp;
